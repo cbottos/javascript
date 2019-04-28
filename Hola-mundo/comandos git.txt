@@ -1,0 +1,20 @@
+git init
+git status
+git add .
+git log  									=> te indica todos los commit que hiciste mostrado en consola
+git log > commit.txt 						=>  te genera un txt con un log de todos los commit que realizaste
+git commit -m "descripcion"
+
+git checkout "descripcion que te brinda 
+log o nombre de master"
+git reset --hard							=> borra commit y CODIGO(cuidado)
+git rest --soft 							=> Borra commit pero no toca codigo
+
+git branch  								=> muestra todas las ramas
+git branch "nombre de la nueva rama"		=> genera una nueva rama
+git branch -D "nombre de la rama" 			=> borra el branch indicado
+git checkout -b "nombre de la rama" 		=> crea la rama y nos posiciona en ella (no hace falta hacer checkout para ponerse en la nueva rama) 
+
+git merge "nombre de la rama				=> fusiona dos ramas(branch) 
+que voy a absorver" 	
+
